@@ -4,7 +4,7 @@ document.getElementById('revealBtn').addEventListener('click', function() {
     this.style.display = 'none';
 });
 
-document.getElementById('jokeBtn').addEventListener('click', function() {
+document.getElementById('nextBtn').addEventListener('click', function() {
     const jokes = [
         "Why don't scientists trust atoms? Because they make up everything!",
         "Why did the scarecrow win an award? Because he was outstanding in his field!",
