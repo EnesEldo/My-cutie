@@ -1,7 +1,7 @@
 const messages = [
     "You are stronger than you think!",
     "More capable than you imagine!",
-    "And loved more than you know. Keep sssmiling!"
+    "And loved more than you know. Keep smiling!"
 ];
 
 const additionalMessages = [
@@ -49,4 +49,3 @@ nextBtn.addEventListener('click', function() {
         }
     }
 });
-
