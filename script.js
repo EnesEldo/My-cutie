@@ -1,7 +1,7 @@
 const messages = [
     "You are stronger than you think!",
     "More capable than you imagine!",
-    "And loved more than you know. Keep smiling!"
+    "And loved more than you know. Keep sssmiling!"
 ];
 
 const additionalMessages = [
