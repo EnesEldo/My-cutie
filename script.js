@@ -5,12 +5,12 @@ document.getElementById('revealBtn').addEventListener('click', function() {
 });
 
 document.getElementById('nextBtn').addEventListener('click', function() {
-    const jokes = [
+    const nexts = [
         "Why don't scientists trust atoms? Because they make up everything!",
         "Why did the scarecrow win an award? Because he was outstanding in his field!",
         "Why don’t skeletons fight each other? They don’t have the guts."
     ];
-    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
-    document.getElementById('joke').textContent = randomJoke;
-    document.getElementById('joke').classList.remove('hidden');
+    const randomNext = nexts[Math.floor(Math.random() * nexts.length)];
+    document.getElementById('next').textContent = randomNext;
+    document.getElementById('next').classList.remove('hidden');
 });
