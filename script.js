@@ -17,6 +17,14 @@ const revealBtn = document.getElementById('revealBtn');
 const nextBtn = document.getElementById('nextBtn');
 const backgroundMusic = document.getElementById('backgroundMusic');
 
+// Ensure the background music starts automatically
+window.addEventListener('load', function() {
+    backgroundMusic.play().catch(error => {
+        // Handle play promise rejection if needed
+        console.log('Autoplay was prevented:', error);
+    });
+});
+
 revealBtn.addEventListener('click', function() {
     if (messageIndex < messages.length) {
         document.getElementById('message').textContent = messages[messageIndex];
@@ -41,3 +49,4 @@ nextBtn.addEventListener('click', function() {
         }
     }
 });
+
