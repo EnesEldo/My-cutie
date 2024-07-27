@@ -1,8 +1,9 @@
 const messages = [
     "You might be asking why did i put alot of effort into this...",
     "It's because I Love You and I wanna cheer you up by making this website which looks simple but meaningful",
-    "With this i wanted to remind you, I will and try to be the best for you and you will never be scared with me as long we try alright? "
-    "I want you to know that you are incomparable and unique, and I love you just as you are, you bring so much joy into my life, and I am so grateful for you, no one should ever compare you because you are one of a kind.""
+    "With this i wanted to remind you, I will and try to be the best for you and you will never be scared with me as long we try alright? ",
+    "Every achievements you achieved, I would be the first one to be proud and happy of you!",
+    "Moreover,I want you to know that you are incomparable and unique, and you bring so much joy into my life, and I am so grateful for you, no one should ever compare you because you are one of a kind."
 ];
 
 const additionalMessages = [
@@ -11,7 +12,7 @@ const additionalMessages = [
     "And promise me... be alive for me would ya?",
     "Promise me to love and remember me...",
     "Deep down I truly Love You no matter what from my bottom of my heart to the top!!",
-    "May God bless our relationship, our journey together, you and i will have a great blessed path" 
+    "May God bless our relationship, our journey together, you and i will have a great blessed path",
     "I Love You in Every Universe"
 ];
 
