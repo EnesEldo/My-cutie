@@ -22,7 +22,7 @@ revealBtn.addEventListener('click', function() {
         document.getElementById('message').textContent = messages[messageIndex];
         messageIndex++;
         if (messageIndex === 1) {
-            backgroundMusic.play(); // Start the background music
+            backgroundMusic.play(); // Start the background music on the first click
         }
         if (messageIndex === messages.length) {
             this.textContent = 'Show Surprise';
@@ -43,4 +43,3 @@ nextBtn.addEventListener('click', function() {
             nextBtn.style.display = 'none'; // Hide button after the last message
         }
     }
-});
