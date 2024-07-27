@@ -21,13 +21,15 @@ revealBtn.addEventListener('click', function() {
     if (messageIndex < messages.length) {
         document.getElementById('message').textContent = messages[messageIndex];
         messageIndex++;
+        if (messageIndex === 1) {
+            backgroundMusic.play(); // Start the background music
+        }
         if (messageIndex === messages.length) {
             this.textContent = 'Show Surprise';
         }
     } else {
         document.getElementById('surprise').classList.remove('hidden');
         revealBtn.style.display = 'none';
-        backgroundMusic.play();
     }
 });
 
