@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Envelope Animation</title>
+    <title>Cheer Up!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="envelope" onclick="this.classList.toggle('open')">
-        <div class="flap"></div>
-        <div class="body">
-            <div class="letter">
-                <div class="content">
-                    <p>This is your letter content.</p>
-                </div>
+    <div class="container">
+        <h1>Hey [Her Name], You Are Amazing!</h1>
+        <div class="content">
+            <p id="message">Click the button below for a smile!</p>
+            <button id="revealBtn">Click Me</button>
+            <div id="surprise" class="hidden">
+                <img src="smile.jpg" alt="Smile Image">
+                <p>You are stronger than you think, more capable than you imagine, and loved more than you know. Keep smiling!</p>
+                <button id="jokeBtn">Want to hear a joke?</button>
+                <p id="joke" class="hidden"></p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+</html>
 </html>
