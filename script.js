@@ -1,13 +1,16 @@
 const messages = [
-    "You are stronger than you think!",
-    "More capable than you imagine!",
-    "And loved more than you know. Keep smiling!"
+    "You might be asking why did i put alot of effort into this...",
+    "It's because I Love You and I wanna cheer you up by making this website which looks simple but meaningful",
+    "With this i wanted to remind you, I will and try to be the best for you and you will never be scared with me as long we try alright? "
 ];
 
 const additionalMessages = [
-    "Remember, you are amazing!",
-    "Never forget how special you are!",
-    "Keep smiling and stay positive!"
+    "You are unique and special to me,!",
+    "Never forget that i'm always here for you!",
+    "And promise me... be alive for me would ya?",
+    "Promise me to love and remember me",
+    "Deep down I truly Love You no matter what from my bottom of my heart to the top!!",
+    "May God bless our relationship, our journey together, you and i will have a great blessed path" 
 ];
 
 let messageIndex = 0;
